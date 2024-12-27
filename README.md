@@ -3,7 +3,7 @@ Bank Application Deployment using Docker (Multi-Stage)
 This is a multi-tier bank an application written in Java (Springboot).
 ![Screenshot (4)](https://github.com/user-attachments/assets/59f549f4-9eee-4ab1-9570-be29a9bbed96)
 
-<img width="1680" alt="Screenshot 2024-10-28 at 8 09 51 PM" src="https://github.com/user-attachments/assets/f6e5fdb0-7ecf-40d2-a601-ed02e7e41071">
+![Screenshot (7)](https://github.com/user-attachments/assets/8da5de17-329b-4d15-93fc-e5178d6cd3be)
 
 **PRE-REQUISITES FOR THIS PROJECT:**
 
