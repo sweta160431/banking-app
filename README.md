@@ -47,7 +47,7 @@ This is a multi-tier bank an application written in Java (Springboot).
     
     ```
     docker build -t springboot-bankapp .
-    docker image tag springboot-bankapp amankumar19/springboot-bankapp
+    docker image tag springboot-bankapp sweta160431/springboot-bankapp
     ```
     
 
@@ -76,7 +76,7 @@ docker run -itd --name mysql -e MYSQL_ROOT_PASSWORD=Test@123 -e MYSQL_DATABASE=B
 - Run Application container
 
 ```
-docker run -itd --name BankApp -e SPRING_DATASOURCE_USERNAME="root" -e SPRING_DATASOURCE_URL="jdbc:mysql://mysql:3306/BankDB?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC" -e SPRING_DATASOURCE_PASSWORD="Test@123" --network=bankapp -p 8080:8080 amankumar19/springboot-bankapp
+docker run -itd --name BankApp -e SPRING_DATASOURCE_USERNAME="root" -e SPRING_DATASOURCE_URL="jdbc:mysql://mysql:3306/BankDB?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC" -e SPRING_DATASOURCE_PASSWORD="Test@123" --network=bankapp -p 8080:8080 sweta160431/springboot-bankapp
 ```
 
 # 
